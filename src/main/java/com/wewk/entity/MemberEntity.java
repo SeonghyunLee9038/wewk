@@ -15,7 +15,7 @@ public class MemberEntity {
 
     @Id
     @GeneratedValue
-    private long mberNo;
+    private Long mberNo;
 
     private String mberId;
 
