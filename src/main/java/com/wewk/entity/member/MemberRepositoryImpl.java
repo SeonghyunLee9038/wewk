@@ -1,7 +1,7 @@
-package com.wewk.repository.member;
+package com.wewk.entity.member;
 
 
-import com.wewk.entity.MemberEntity;
+import com.wewk.entity.Member;
 import org.springframework.data.jpa.repository.support.QuerydslRepositorySupport;
 
 public class MemberRepositoryImpl extends QuerydslRepositorySupport implements MemberRepositoryCustom {
@@ -11,7 +11,7 @@ public class MemberRepositoryImpl extends QuerydslRepositorySupport implements M
      *
      */
     public MemberRepositoryImpl() {
-        super(MemberEntity.class);
+        super(Member.class);
     }
 
 

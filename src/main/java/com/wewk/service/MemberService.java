@@ -1,6 +1,6 @@
 package com.wewk.service;
 
-import com.wewk.repository.member.MemberRepository;
+import com.wewk.entity.member.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

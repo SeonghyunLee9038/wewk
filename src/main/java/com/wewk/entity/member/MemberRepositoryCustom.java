@@ -1,4 +1,4 @@
-package com.wewk.repository.member;
+package com.wewk.entity.member;
 
 public interface MemberRepositoryCustom {
 

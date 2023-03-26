@@ -10,6 +10,8 @@ public class TaskController {
 
     @GetMapping("/gant")
     public String getGant() {
-        return "index";
+
+        System.out.println("gant");
+        return "test";
     }
 }
