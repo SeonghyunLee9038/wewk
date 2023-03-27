@@ -1,16 +1,18 @@
-package com.wewk.entity;
+package com.wewk.entity.member;
 
+import com.wewk.entity.BaseEntity;
 import com.wewk.entity.project.Project;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 import javax.persistence.*;
 import java.util.List;
 
-@Getter @Setter
+@Getter @Setter @ToString
 @Entity
 @Table(name = "member")
-public class Member extends BaseEntity{
+public class Member extends BaseEntity {
 
     @Id
     @GeneratedValue
@@ -24,7 +26,6 @@ public class Member extends BaseEntity{
 
     private String mberEmail;
 
-    private String mberTelno;
 
     @ManyToMany
     @JoinTable(name = "project_member_mapper",
