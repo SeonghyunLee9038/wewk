@@ -11,7 +11,7 @@ spring:
   jpa:
     generate-ddl: true
     hibernate:
-      ddl-auto: update
+      ddl-auto: create-drop
     properties:
       hibernate:
         # jpa hibernate 에서 생성한 쿼리 system log 로 출력

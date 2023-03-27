@@ -1,7 +1,7 @@
 package com.wewk.entity.issue;
 
 import com.wewk.entity.BaseEntity;
-import com.wewk.entity.Member;
+import com.wewk.entity.member.Member;
 import com.wewk.entity.project.Project;
 import com.wewk.entity.subject.Subject;
 import com.wewk.enums.IssuePeriority;

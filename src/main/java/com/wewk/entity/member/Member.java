@@ -5,6 +5,7 @@ import com.wewk.entity.project.Project;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
+import org.hibernate.validator.constraints.UniqueElements;
 
 import javax.persistence.*;
 import java.util.List;
@@ -18,6 +19,7 @@ public class Member extends BaseEntity {
     @GeneratedValue
     private Long mberNo;
 
+    @Column(length = 50, nullable = false, unique = true)
     private String mberId;
 
     private String mberNm;

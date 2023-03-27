@@ -2,7 +2,7 @@ package com.wewk.entity.project;
 
 
 import com.wewk.entity.BaseEntity;
-import com.wewk.entity.Member;
+import com.wewk.entity.member.Member;
 
 import javax.persistence.*;
 import java.util.List;
