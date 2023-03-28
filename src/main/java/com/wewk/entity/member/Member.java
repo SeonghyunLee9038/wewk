@@ -5,7 +5,6 @@ import com.wewk.entity.project.Project;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-import org.hibernate.validator.constraints.UniqueElements;
 
 import javax.persistence.*;
 import java.util.List;

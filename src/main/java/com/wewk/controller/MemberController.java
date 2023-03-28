@@ -30,10 +30,4 @@ public class MemberController {
         return "pages/member/join";
     }
 
-    @PatchMapping("/{memberId}")
-    public String patchMember(@PathVariable Long memberId, @Validated MemberJoinVo memberJoinVo) {
-
-        return "pages/member/join";
-    }
-
 }
